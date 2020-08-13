@@ -1,0 +1,509 @@
+@media screen and (max-width:768px){
+
+
+/*navigation*/
+.home-navi{
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+    top:0;
+    position: sticky!important;
+    z-index: 1000;
+  }
+  
+  .home-navi .brand{
+    flex:1;
+    color: #fff;
+  }
+  
+  .home-navi ul{
+    flex: 1;
+    list-style: none;
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .home-navi ul li{
+    display: block;
+  }
+  
+  .home-navi ul li a{
+    font-size: 80%;
+    display:  inline;
+    padding: 5px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  /*showcase*/
+
+  .showcase{
+    height:420px;
+    background: url(../images/Adonis-Bosso-Top-Black-Male-Model-Sagaboi-Feature.jpeg)no-repeat center center;
+    background-size: cover;
+  }
+  
+  
+  .showcase .showcase-content{
+    position: relative;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    top:40%;
+    justify-content: flex-start;
+    /* align-items: center; */
+  }
+  
+  .showcase-content h1{
+    font-size: 2.5rem;
+    color:coral!important;
+  }
+  
+  .showcase-content h3{
+    font-size: 2rem;
+  }
+
+
+  /*about*/
+
+#about{
+    width:100%;
+    padding: 30px 0px;
+  }
+  
+  .about{
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 30px 30px 50px 30px;
+  }
+  
+  .about div{
+    flex:1;
+    margin: 0px;
+  }
+  
+  .about .skills .name-photo{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+  }
+  
+  .about .skills .name-photo .details {
+    flex: 1;
+    margin-left: 0px;
+  }
+  .about .skills .name-photo .img{
+    flex: 1;
+  }
+  
+  
+  .about .skills .name-photo div p{
+    padding: 8px 0px;
+  }
+  
+  .about .skills .skills-section{
+    padding: 10px;
+  }
+  
+  .about .skills .skills-section label{
+    display: block;
+  }
+  
+  .about .skills .skills-section progress{
+    display: block;
+    width: 100%;
+  }
+  
+  .progress-value{
+    float: right;
+  }
+  
+  
+  
+  .about .info p{
+    padding: 5px;
+  }
+
+  /*services*/
+#services{
+    width:100% ;
+    padding: 80px 20px 60px 20px;
+  }
+  
+  .services-heading{
+    text-align: center;
+  }
+  
+  .services-heading hr{
+    width: 40px;
+    border-width: 3px;
+    border-color: coral;
+    margin: 5px auto;
+  }
+  
+  .services-grid{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .services-grid div{
+    flex: 1;
+    margin: 10px;
+    background: #fff;
+    padding:10px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  
+  .services-grid i{
+    font-size: 3rem;
+    margin: 10px;
+    color:coral;
+  }
+  
+  
+  
+  .dark div{
+    background:#fff;
+    color: #000;
+  }
+  
+  .light div{
+    background:#fff;
+  color: #000;
+  }
+  
+  /* .light div i{
+    color:#000;
+  }
+   */
+  .services-grid h5{
+    font-weight: 500;
+    font-size: 1.7rem;
+  }
+  
+  .journey{
+    height: 500px;
+    width:100%;
+    background: url(../images/double2.jpg)no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .journey-content{
+    background-color:rgba(0,0,255, 0.3);
+    height:500px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding:50px;
+    color:#fff;
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .journey-content div{
+    margin: auto;
+    text-align: center;
+  }
+  
+  .journey-content div i{
+    font-size: 2rem;
+  }
+  
+  .journey-content div p{
+    font-size: 1.2rem;
+  }
+  
+
+  /*portfolio*/
+.portfolio-heading{
+    text-align: center;
+  }
+  
+  #work{
+    width: 100%;
+    padding: 80px 20px 60px 20px;
+  }
+  .portfolio-heading hr{
+    width: 40px;
+    border-width: 3px;
+    border-color: coral;
+    margin: 5px auto;
+  }
+  
+  .portfolio-grid{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding:10px;
+    grid-gap: 10px;
+  }
+  
+  .portfolio-grid div{
+    background: #fff;
+  }
+  
+  .portfolio-grid img{
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid coral;
+  }
+  
+  .portfolio-second-grid div{
+    background: #fff;
+  }
+  
+  .portfolio-grid p{
+    padding:10px;
+  }
+  
+  .portfolio-second-grid{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding:20px;
+    grid-gap:10px;
+  }
+  
+  .portfolio-second-grid img{
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid coral;
+  }
+  
+  .portfolio-second-grid p{
+    padding:10px;
+  }
+  
+  /*testimonial*/
+#testimonial{
+    height: 700px;
+    width:100%;
+    background: url(../images/forrest.png)no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .testimonial-content .testimonial-hide{
+      display: none;
+  }
+  .testimonial-content{
+    background-color:rgba(255,127,80, 0.3);
+    height:700px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding:30px;
+    color:#fff;
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr;
+  }
+  
+  .testimonial-grid img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .testimonial-grid h5{
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  /*blog*/
+.blog-heading{
+    text-align: center;
+  }
+  
+  #blog{
+    width: 100%;
+    padding: 80px 20px 60px 20px;
+  }
+  .blog-heading hr{
+    width: 40px;
+    border-width: 3px;
+    border-color: coral;
+    margin: 5px auto;
+  }
+  
+  .blog-content{
+    width:100%;
+    padding:5px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
+  
+  .blog-content img{
+    width:100%;
+    height:200px;
+    border-bottom: 1px solid coral;
+  }
+  
+  .blog-content >div{
+    width:100%;
+  }
+  .blog-content >  div p{
+    padding: 0px  15px 15px 15px;
+  }
+  
+  .blog-content >  div h5{
+    padding:0px 15px;
+    font-weight: 600;
+  }
+  
+  .blog-time{
+    display: flex;
+    padding:0px 15px;
+    background:#ddd;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .blog-time img{
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+  }
+  
+  .blog-time p{
+    flex: 1;
+    text-align: right;
+    margin-top:12px;
+  }
+  
+  .bt{
+    background: #000;
+    color:coral;
+    padding:5px;
+    border:none;
+    border-radius: 3px;
+    position: relative;
+    left:40%;
+    top:-3%;
+    display: none;
+  }
+  
+  .bt:hover{
+    background:coral;
+    color:#000;
+  }
+  
+
+
+/*contact*/
+
+#contact{
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  
+  .contact-overlay{
+    width: 100%;
+  }
+
+.contact{
+  background: #fff;
+  width:100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0px;
+  padding-bottom: 20px;
+}
+
+.contact-form{
+  text-align: left;
+  padding:20px;
+  width: 100%;
+}
+
+.contact-form form input{
+  display: block;
+  width:100%;
+  margin:25px 25px 25px 0px;
+  height:35px;
+  padding:10px;
+  border:1px solid #000;
+  border-radius: 3px;
+}
+
+textarea{
+  padding:10px;
+  width:100%;
+  border:1px solid #000;
+  border-radius: 3px;
+}
+.contact-form hr{
+  width: 50px;
+  border-width: 3px;
+  border-color: coral;
+  margin: 5px;
+}
+
+.contact-form form button{
+  background: coral;
+  color:#fff;
+  padding:12px;
+  border:none;
+  border-radius: 30px;
+  margin:10px 0px;
+}
+
+.contact-form form button:hover{
+  background:#000;
+  color:coral;
+}
+
+.getintouch{
+  padding:30px 30px 0px 30px;
+}
+.getintouch hr{
+  width: 50px;
+  border-width: 3px;
+  border-color: coral;
+  margin: 5px;
+}
+
+.getintouch p{
+  padding:20px 20px 20px 0px;
+}
+
+.getintouch p span{
+  display: inline-block;
+  margin:5px 0px;
+}
+.social i{
+  font-size: 1.7rem;
+  margin: 0px 15px 0px 0px;
+}
+
+.social i:hover{
+  color:coral
+}
+
+}
