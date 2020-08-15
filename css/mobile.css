@@ -347,7 +347,7 @@
     margin: 5px auto;
   }
   .blog-hide{
-    display: none;
+    display: block;
   }
   .blog-content{
     width:100%;
