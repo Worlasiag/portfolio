@@ -306,7 +306,7 @@
     display: grid;
     padding:30px;
     color:#fff;
-    grid-gap: 15px;
+    grid-gap: 5px;
     align-items: center;
     justify-content: center;
     grid-template-columns:1fr;
