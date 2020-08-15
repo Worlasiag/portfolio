@@ -290,7 +290,7 @@
   
   /*testimonial*/
 #testimonial{
-    height: 700px;
+    height: 800px;
     width:100%;
     background: url(../images/forrest.png)no-repeat center center;
     background-size: cover;
@@ -302,7 +302,7 @@
   }
   .testimonial-content{
     background-color:rgba(255,127,80, 0.3);
-    height:700px;
+    height:800px;
     display: grid;
     padding:30px;
     color:#fff;
@@ -350,7 +350,7 @@
     display: none;
   }
   .blog-content{
-    width:75%;
+    width:90%;
     padding:5px;
     margin: 0 auto;
     display: grid;
