@@ -5,21 +5,23 @@
   font-size: 100%;
   font-family: consolas;
 }
-
+a:hover{
+  text-decoration: none!important;
+}
 .text-primary{
-  color:coral;
+  color:coral!important;
   position: relative;
 }
 
 body{
-  background: #f5f5f5;
+  background: #f1f1f1!important;
 }
 
 a{
   text-decoration: none;
   color:#fff;
 }
-
+/* 
 .home-navi{
   width: 100%;
   background-color: #000;
@@ -50,22 +52,16 @@ a{
   display: inline-block;
   padding: 0px 10px;
   text-transform: uppercase;
-  color: #fff;
+  color: coral;
 }
 
 .home-navi ul li a:hover{
-  color: coral;
-  text-decoration: 1px solid #fff underline;
-  /* text-decoration-color: coral;
-  text-decoration-style: solid; */
+  color: #000;
 } 
 
-.home-navi .brand:hover{
+.home-navi .brand{
   color: coral;
-  text-decoration: 1px solid #fff underline;
-  /* text-decoration-color: coral;
-  text-decoration-style: solid; */
-} 
+}  */
 
 .showcase{
   height:100vh;
@@ -121,9 +117,12 @@ a{
 .about{
   width: 90%;
   margin: 0 auto;
-  background: #fff;
+  background: #A7FCFF;
   display: flex;
   padding: 30px 30px 50px 30px;
+  /* background: url(../images/mountain.jpg)no-repeat center;
+  background-attachment: fixed; */
+  color:#000;
 }
 
 .about div{
@@ -133,24 +132,27 @@ a{
 
 .about .skills .name-photo{
   display: flex;
-  padding: 20px;
+  flex-direction: row;
+  padding: 20px  150px;
+  align-items: center;
+  justify-content: center;
 }
 
 .about .skills .name-photo .details {
   flex: 2;
-  margin-left: 50px;
 }
 .about .skills .name-photo .img{
   flex: 1;
 }
 
-
+/*
 .about .skills .name-photo div p{
-  padding: 8px 0px;
-}
+   padding: 8px 0px; */
+
 
 .about .skills .skills-section{
   padding: 20px;
+  width:80%;
 }
 
 .about .skills .skills-section label{
@@ -164,8 +166,8 @@ a{
 
 .progress-value{
   float: right;
+  /* color: coral; */
 }
-
 
 
 .about .info p{

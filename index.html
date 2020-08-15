@@ -1,34 +1,68 @@
 <!DOCTYPE html> 
-<html lang="en">
+<html lang="en-US">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Max | Portfolio</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css" >
   <link rel="stylesheet" href="css/w3css.css">
   <link rel="stylesheet" href="css/all.css">
   <link rel="stylesheet" href="css/fontawesome.css">
   <link rel="stylesheet" href="css/brands.css">
   <link rel="stylesheet" href="css/solid.css">
-  <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:768px)">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width:600px)">
+  <link rel="stylesheet" href="css/mobile1.css" media="only screen and (min-width:600px)">
+  <link rel="stylesheet" href="css/large.css" media="screen and (min-width:768px)">
+  <link rel="stylesheet" href="css/xlarge.css" media="screen and (min-width:992px)">
+  <link rel="stylesheet" href="css/xxlarge.css" media="screen and (min-width:1200px)">
+  <style>
+    .nav-link{
+      color: coral!important;
+    }
+    .nav-link:hover{
+      color:#000!important;
+    }
+    .navbar-brand:hover{
+      color: coral!important;
+    }
+    .text-primary{
+      color:coral!important;
+      position: relative;
+    }
+    .showcase-content h1{
+    font-size: 5rem;
+    color: black!important;
+  }
+  .navbar ul li a{
+    font-size: 1.2rem;
+  }
+  </style>
 </head> 
 <body>
-  <nav class="home-navi w3-card-4">
-    <a href="index.html" class="brand">Max | Portfolio</a>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="index.html#about">About</a></li>
-      <li><a href="index.html#services">Services</a></li>
-      <li><a href="index.html#work">Work</a></li>
-      <li><a href="index.html#blog">Blog</a></li>
-      <li><a href="index.html#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light w3-card-4 fixed-top ">
+		<a class="text-black navbar-brand" href="index.html" >Max | Portfolio</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+	  
+		<div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+		  <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"><a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#about">About</a class="nav-link"></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a class="nav-link"></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#work">Work</a class="nav-link"></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#blog">Blog</a class="nav-link"></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+		  </ul>
+		</div>
+	  </nav>
+
   <section class="showcase">
     <div class="showcase-content">
-      <h1>I am <span class="text-primary">Worlasi</span></h1>
-      <h3 class="text-primary">Front End Developer <span id="demo">|</span></h3>
+      <h1>I am <span class="text-primary" style="color:coral!important">Worlasi</span></h1>
+      <h3 class="text-primary" style="color:#000!important">Front End Developer <span id="demo">|</span></h3>
     </div>
   </section>
 
@@ -37,34 +71,38 @@
       <div class="skills">
         <div class="name-photo">
           <div class="img">
-            <img src="images/jay.jpg" alt="" height="150px" width="150px">
+            <img class="w3-card-2" src="images/joey.jpg" alt="" height="150px" width="150px" style="border-radius: 50%;border:1px solid coral;">
           </div>
           <div class="details">
-            <p><strong>Name:</strong> Goku Worlasi</p>
-            <p><strong>Profile:</strong> Front End Developer</p>
-            <p><strong>Email:</strong> gokumaxwell@gmail.com</p>
-            <p><strong>Phone:</strong> +233209409757</p>
+            <p><strong>Name:</strong> <span class="text-primary">Goku Worlasi</span></p>
+            <p><strong>Profile:</strong> <span class="text-primary">Front End Developer</span></p>
+            <p><strong>Email:</strong> <span class="text-primary">gokumaxwell@gmail.com</span></p>
+            <p><strong>Phone:</strong> <span class="text-primary">+233209409757</span></p>
           </div>
         </div>
 
         <div class="skills-section">
-          <p style="padding: 5px 5px 5px 0px;">Skill</p>
-          <label for="HTML">HTML<p class="progress-value">90%</p></label>
+          <p style="padding: 5px 5px 5px 0px;"> <em>Skills</em></p>
+      
           <progress value="90" max="100"></progress>
+          <label for="HTML">HTML<p class="progress-value">90%</p></label>
 
-          <label for="CSS">CSS<p class="progress-value">80%</p></label>
           <progress value="80" max="100"></progress>
+          <label for="CSS">CSS<p class="progress-value">80%</p></label>
 
-          <label for="Bootstrap">Bootstrap<p class="progress-value">70%</p></label>
           <progress value="70" max="100"></progress>
+          <label for="Bootstrap">Bootstrap<p class="progress-value">70%</p></label>
 
-          <label for="Javascript">Javascript <p class="progress-value">85%</p></label>
           <progress value="85" max="100"></progress>
+          <label for="Javascript">Javascript <p class="progress-value">85%</p></label>
         </div>
       </div>
       <div class="info">
         <h3>About Me</h3>
         <hr>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sed consequuntur eligendi qui magnam maiores, deleniti velit aliquid. Magni corrupti deleniti, blanditiis magnam, tempora facilis asperiores aut natus corporis voluptate eaque maxime, dignissimos assumenda delectus.
+        </p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sed consequuntur eligendi qui magnam maiores, deleniti velit aliquid. Magni corrupti deleniti, blanditiis magnam, tempora facilis asperiores aut natus corporis voluptate eaque maxime, dignissimos assumenda delectus.
         </p>
@@ -191,7 +229,7 @@
         </p>
       </div>
 
-      <div class="w3-card-2">
+      <div class="w3-card-2 portfolio-hide">
         <img src="images/3.jpg" alt="">
         <p>Lorem ipsum dolor sit amet. <br>
           Web Design / 18 Sep 2018
@@ -214,7 +252,7 @@
         </p>
       </div>
 
-      <div class="w3-card-2">
+      <div class="w3-card-2 portfolio-hide">
         <img src="images/6.jpg" alt=""> 
         <p>Lorem ipsum dolor sit amet. <br>
           Web Design / 18 Sep 2018
@@ -283,7 +321,7 @@
         </div>
       </div>
 
-      <div class="w3-card-2">
+      <div class="w3-card-2 blog-hide">
         <img src="images/adults-analysis-banking-1451447.jpg" alt="">
         <button class="bt">TRAVEL</button>
         <h5>Lorem ipsum dolor sit amet.</h5>
@@ -335,6 +373,7 @@
       </div>
     </div>
   </section>
-  
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.js"></script>
 </body>
 </html>

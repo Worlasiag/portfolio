@@ -1,0 +1,560 @@
+@media screen and (min-width:992px){
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: consolas;
+  }
+  a:hover{
+    text-decoration: none!important;
+  }
+  .text-primary{
+    color:coral!important;
+    position: relative;
+  }
+  
+  body{
+    background: #f1f1f1!important;
+  }
+  
+  a{
+    text-decoration: none;
+    color:#fff;
+  }
+  
+  .home-navi{
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    padding: 20px;
+    top:0;
+    position: sticky;
+    z-index: 2;
+  }
+  
+  .home-navi .brand{
+    flex:1;
+    color: #fff;
+  }
+  
+  .home-navi ul{
+    flex: 1;
+    list-style: none;
+    display: flex;
+    justify-content:flex-end;
+  }
+  
+  .home-navi ul li{
+    display: inline;
+  }
+  
+  .home-navi ul li a{
+    display: inline-block;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    color: coral;
+  }
+  
+  .home-navi ul li a:hover{
+    color: #000;
+  } 
+  
+  .home-navi .brand{
+    color: coral;
+  } 
+  
+  .showcase{
+    height:100vh;
+    background: url(../images/Adonis-Bosso-Top-Black-Male-Model-Sagaboi-Feature.jpeg)no-repeat center center;
+    background-size: cover;
+  }
+  
+  
+  .showcase .showcase-content{
+    position: relative;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    top:40%;
+    justify-content: flex-start;
+    /* align-items: center; */
+  }
+  
+  .showcase-content h1{
+    font-size: 5rem;
+  }
+  
+  .showcase-content h3{
+    font-size: 2rem;
+  }
+  
+  @keyframes blinking {
+    0%{
+      opacity: 0;
+    }
+    /* YOU CAN ADD MORE COLORS IN THE KEYFRAMES IF YOU WANT
+    50%{
+      color: #55d66b;
+    }
+    */
+    100%{
+      opacity: 1;
+    }
+  }
+  #demo{
+    /* NAME | TIME | ITERATION */
+    animation: blinking 1s infinite;
+    color: #000;
+  }
+  
+  #about{
+    width:100%;
+    padding: 30px 0px;
+  }
+  
+  .about{
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 30px 50px 30px;
+  }
+  
+  .about div{
+    flex:1;
+    margin: 0px;
+  }
+  
+  .about .skills .name-photo{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+  }
+  
+  .about .skills .name-photo .details {
+    flex: 1;
+    margin-left: 0px;
+  }
+  .about .skills .name-photo .img{
+    flex: 1;
+  }
+  
+  
+  .about .skills .name-photo div p{
+    padding: 8px 0px;
+  }
+  
+  .about .skills .skills-section{
+    padding: 10px;
+  }
+  
+  .about .skills .skills-section label{
+    display: block;
+  }
+  
+  .about .skills .skills-section progress{
+    display: block;
+    width: 100%;
+  }
+  
+  .progress-value{
+    float: right;
+  }
+  
+  
+  
+  .about .info p{
+    padding: 5px;
+  }
+
+  
+  /*services*/
+  #services{
+    width:100% ;
+    padding: 30px;
+  }
+  
+  .services-heading{
+    text-align: center;
+  }
+  
+  .services-heading hr{
+    width: 40px;
+    border-width: 3px;
+    border-color: coral;
+    margin: 5px auto;
+  }
+  
+  .services-grid{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .services-grid div{
+    flex: 1;
+    margin: 20px;
+    background: #fff;
+    padding:20px;
+    text-align: center;
+    border-radius: 1px;
+  }
+  
+  
+  .services-grid i{
+    font-size: 4rem;
+    margin: 10px;
+    color:coral;
+  }
+  
+  
+  .dark div{
+    background:#fff;
+    color: #000;
+    /* border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px; */
+    /* border-top:1px solid coral; */
+    /* border-left:1px solid coral;
+    border-right:1px solid coral; */
+  }
+  
+  .light div{
+    background:#fff;
+    color: #000;
+    /* border-top-left-radius: 50px;
+    border-top-right-radius: 50px; */
+    /* border-bottom:1px solid coral; */
+    /* border-left:1px solid coral;
+    border-right:1px solid coral; */
+  }
+  
+  .light div i, .dark div i{
+    color:coral;
+  }
+  
+  .services-grid h5{
+    font-weight: 500;
+    font-size: 1.7rem;
+  }
+  
+  .journey{
+    height: 350px;
+    width:100%;
+    background: url(../images/double2.jpg)no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .journey-content{
+    background-color:rgba(0,0,255, 0.3);
+    height:350px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding:100px;
+    color:#fff;
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .journey-content div{
+    margin: auto;
+    text-align: center;
+  }
+  
+  .journey-content div i{
+    font-size: 3rem;
+  }
+  
+  .journey-content div p{
+    font-size: 1.2rem;
+  }
+  
+  /*portfolio*/
+  .portfolio-heading{
+    text-align: center;
+  }
+  
+  #work{
+    width: 100%;
+    padding: 60px;
+  }
+  .portfolio-heading hr{
+    width: 40px;
+    border-width: 3px;
+    border-color: coral;
+    margin: 5px auto;
+  }
+  
+  .portfolio-grid{
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding:10px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+  }
+  .portfolio-hide{
+    display: block;
+  }
+  .portfolio-grid div{
+    background: #fff;
+  }
+  
+  .portfolio-grid img{
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid coral;
+  }
+  
+  .portfolio-second-grid div{
+    background: #fff;
+  }
+  
+  .portfolio-grid p{
+    padding:10px;
+  }
+  
+  .portfolio-second-grid{
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding:10px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+  }
+  
+  .portfolio-second-grid img{
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid coral;
+  }
+  
+  .portfolio-second-grid p{
+    padding:10px;
+  }
+  
+  
+  /*testimonial*/
+  #testimonial{
+    height: 700px;
+    width:100%;
+    background: url(../images/forrest.png)no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+ 
+  .testimonial-content{
+    background-color:rgba(255,127,80, 0.3);
+    height:700px;
+    display: grid;
+    padding:30px 100px;
+    color:#fff;
+    grid-gap: 0px 30px;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  .testimonial-grid img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    border:1px solid #fff;
+    margin-bottom: 10px;
+    align-self: center;
+  }
+  
+  .testimonial-grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .testimonial-grid h5{
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .testimonial-hide{
+    display: block!important;
+  }
+  
+  /*blog*/
+  .blog-heading{
+    text-align: center;
+  }
+  
+  #blog{
+    width: 100%;
+    padding: 60px;
+  }
+  .blog-heading hr{
+    width: 40px;
+    border-width: 3px;
+    border-color: coral;
+    margin: 5px auto;
+  }
+  
+  .blog-content{
+    width:95%;
+    padding:20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+  }
+  
+  .blog-content img{
+    width:100%;
+    height:200px;
+    border-bottom: 1px solid coral;
+  }
+  
+  .blog-content >div{
+    width:100%;
+  }
+  .blog-content >  div p{
+    padding: 0px  15px 15px 15px;
+  }
+  
+  .blog-content >  div h5{
+    padding:0px 15px;
+    font-weight: 600;
+  }
+  
+  .blog-time{
+    display: flex;
+    padding:0px 15px;
+    background:#ddd;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .blog-time img{
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+  }
+  
+  .blog-time p{
+    flex: 1;
+    text-align: right;
+    margin-top:12px;
+  }
+  
+  .blog-hide{
+    display: block;
+  }
+  .bt{
+    background: #000;
+    color:coral;
+    padding:5px;
+    border:none;
+    border-radius: 3px;
+    position: relative;
+    left:40%;
+    top:-3%;
+  }
+  
+  .bt:hover{
+    background:coral;
+    color:#000;
+  }
+  
+  /*contact*/
+  
+  #contact{
+    width: 100%;
+    padding:60px 0px;
+  }
+  
+  .contact-overlay{
+    width: 100%;
+  }
+  
+  
+  .contact{
+    background: #fff;
+    width:90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+  }
+  
+  .contact-form{
+    text-align: left;
+    padding:30px;
+    width: 100%;
+  }
+  
+  .contact-form form input{
+    display: block;
+    width:100%;
+    margin:25px 25px 25px 0px;
+    height:35px;
+    padding:10px;
+    border:1px solid #000;
+    border-radius: 3px;
+  }
+  
+  textarea{
+    padding:10px;
+    width:100%;
+    border:1px solid #000;
+    border-radius: 3px;
+  }
+  .contact-form hr{
+    width: 50px;
+    border-width: 3px;
+    border-color: coral;
+    margin: 5px;
+  }
+  
+  .contact-form form button{
+    background: coral;
+    color:#fff;
+    padding:12px;
+    border:none;
+    border-radius: 30px;
+    margin:10px 0px;
+  }
+  
+  .contact-form form button:hover{
+    background:#000;
+    color:coral;
+  }
+  
+  .getintouch{
+    padding:30px;
+  }
+  .getintouch hr{
+    width: 50px;
+    border-width: 3px;
+    border-color: coral;
+    margin: 5px;
+  }
+  
+  .getintouch p{
+    padding:20px 20px 20px 0px;
+  }
+  
+  .getintouch p span{
+    display: inline-block;
+    margin:5px 0px;
+  }
+  .social i{
+    font-size: 1.7rem;
+    margin: 0px 15px 0px 0px;
+  }
+  
+  .social i:hover{
+    color:coral
+  }
+
+}

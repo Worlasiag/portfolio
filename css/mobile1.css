@@ -1,4 +1,4 @@
-@media screen and (max-width:600px){
+@media screen and (min-width:600px){
 
 
 /*navigation*/
@@ -76,11 +76,11 @@
   }
   
   .about{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     background: #fff;
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     padding: 30px 30px 50px 30px;
   }
   
@@ -98,6 +98,7 @@
   .about .skills .name-photo .details {
     flex: 1;
     margin-left: 0px;
+    padding-top: 50px;
   }
   .about .skills .name-photo .img{
     flex: 1;
@@ -109,7 +110,7 @@
   }
   
   .about .skills .skills-section{
-    padding: 10px;
+    padding: 20px 20px 20px 50px;
   }
   
   .about .skills .skills-section label{
@@ -134,7 +135,7 @@
   /*services*/
 #services{
     width:100% ;
-    padding: 80px 20px 60px 20px;
+    padding: 80px 50px 50px 50px;
   }
   
   .services-heading{
@@ -149,13 +150,15 @@
   }
   
   .services-grid{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   
   .services-grid div{
+    width:75%;
     flex: 1;
     margin: 10px;
     background: #fff;
@@ -243,9 +246,10 @@
   }
   
   .portfolio-grid{
-    width: 75%;
+    width: 70%;
     margin: auto;
     display: grid;
+    align-items: center;
     grid-template-columns: 1fr;
     padding:10px;
     grid-gap: 10px;
@@ -270,9 +274,10 @@
   }
   
   .portfolio-second-grid{
-    width: 75%;
+    width: 70%;
     margin: auto;
     display: grid;
+    align-items: center;
     grid-template-columns: 1fr;
     padding:10px;
     grid-gap:10px;
@@ -306,7 +311,7 @@
     display: grid;
     padding:30px;
     color:#fff;
-    grid-gap: 15px;
+    grid-gap: 20px;
     align-items: center;
     justify-content: center;
     grid-template-columns:1fr 1fr;
@@ -350,7 +355,7 @@
     display: none;
   }
   .blog-content{
-    width:75%;
+    width:70%;
     padding:5px;
     margin: 0 auto;
     display: grid;
@@ -435,7 +440,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 0px;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
 .contact-form{
