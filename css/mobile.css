@@ -59,7 +59,7 @@
   }
   
   .showcase-content h1{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color:coral!important;
   }
   
@@ -97,7 +97,7 @@
   
   .about .skills .name-photo .details {
     flex: 1;
-    margin-left: 0px;
+    margin-top: 10px;
   }
   .about .skills .name-photo .img{
     flex: 1;
