@@ -309,7 +309,7 @@
     grid-gap: 15px;
     align-items: center;
     justify-content: center;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:1fr;
   }
   
   .testimonial-grid img{
