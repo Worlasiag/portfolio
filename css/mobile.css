@@ -53,18 +53,18 @@
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
-    top:40%;
+    top:70%;
     justify-content: flex-start;
     /* align-items: center; */
   }
   
   .showcase-content h1{
-    font-size: 75%!important;
+    font-size: 95%!important;
     color:coral!important;
   }
   
   .showcase-content h3{
-    font-size: 70%;
+    font-size: 90%;
   }
 
 
